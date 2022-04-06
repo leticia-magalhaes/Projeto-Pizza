@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Vila Miisa Pizzaria</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../css/telaPedidos.css" />
+  <script src="../js/telaPedidos.js"></script>
+
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="canonical" href="../views/index.html">
+
+  <link rel="apple-touch-icon" href="imagens/pmv-512x512.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Vila Miisa Pizzaria">
+</head>
+
+<body>
+  <header class="headerBar primario">
+    <nav class="navegacao">
+      <div class="buttonGroup1">
+        <button id="btnVoltar" class="button terciario" onclick="mudaPagina('telaMenu.html')">
+          <img src="../img/setaVoltar.png" />
+        </button>
+    </nav>
+    </div>
+    <div class="appTela">Pedidos</div>
+    <div class="badge">3</div>
+  </header>
+
+  <div id="telaPedidos" class="component">
+
+    <div id="componente2" class="component">
+      <div class="buttonGroup2 mt1">
+        <button id="btnInserirNovoPedido" class="button terciario" onclick="mudaPagina('telaCategorias.html')">Inserir Novo Pedido</button>
+      </div>
+    </div>
+
+    <!-- <div class="componentContent">
+      <div id="blank">
+        <img src="../img/logoVilaMiisa.png" />
+        <p>Ainda não temos pedidos.</p>
+      </div> -->
+
+    <div class="conteinerLista">
+      <table id="listaDePedidos">
+        <tr>
+          <div class="listaPedidos">
+
+            <div>PEDIDO Nº 1 </div>
+
+            <div >
+              <button id="btnAll" class="buttonAll">
+                <img src="../img/editar.png" />
+              </button>
+              <button id="btnAll" class="buttonAll">
+                <img src="../img/delete.png" />
+              </button>
+              <button id="btnAll" class="buttonAll">
+                <img src="../img/irPagamento.png" />
+              </button>
+            </div>
+
+          </div>
+        </tr>
+
+        <tr>
+          <div class="listaPedidos">
+
+            <div>PEDIDO Nº 2</div>
+
+            <div>
+              <button id="btnAll" class="buttonAll">
+                <img src="../img/editar.png" />
+              </button>
+              <button id="btnAll" class="buttonAll">
+                <img src="../img/delete.png" />
+              </button>
+              <button id="btnAll" class="buttonAll">
+                <img src="../img/irPagamento.png" />
+              </button>
+            </div>
+          </div>
+        </tr>
+        <tr>
+          <tr>
+            <div class="listaPedidos">
+  
+              <div>PEDIDO Nº 2</div>
+  
+              <div>
+                <button id="btnAll" class="buttonAll">
+                  <img src="../img/editar.png" />
+                </button>
+                <button id="btnAll" class="buttonAll">
+                  <img src="../img/delete.png" />
+                </button>
+                <button id="btnAll" class="buttonAll">
+                  <img src="../img/irPagamento.png" />
+                </button>
+              </div>
+            </div>
+          </tr>
+          <tr>
+            <tr>
+              <div class="listaPedidos">
+    
+                <div>PEDIDO Nº 2</div>
+    
+                <div>
+                  <button id="btnAll" class="buttonAll">
+                    <img src="../img/editar.png" />
+                  </button>
+                  <button id="btnAll" class="buttonAll">
+                    <img src="../img/delete.png" />
+                  </button>
+                  <button id="btnAll" class="buttonAll">
+                    <img src="../img/irPagamento.png" />
+                  </button>
+                </div>
+              </div>
+            </tr>
+            <tr>
+              <tr>
+                <div class="listaPedidos">
+      
+                  <div>PEDIDO Nº 2</div>
+      
+                  <div>
+                    <button id="btnAll" class="buttonAll">
+                      <img src="../img/editar.png" />
+                    </button>
+                    <button id="btnAll" class="buttonAll">
+                      <img src="../img/delete.png" />
+                    </button>
+                    <button id="btnAll" class="buttonAll">
+                      <img src="../img/irPagamento.png" />
+                    </button>
+                  </div>
+                </div>
+              </tr>
+              <tr>
+                <tr>
+                  <div class="listaPedidos">
+        
+                    <div>PEDIDO Nº 2</div>
+        
+                    <div>
+                      <button id="btnAll" class="buttonAll">
+                        <img src="../img/editar.png" />
+                      </button>
+                      <button id="btnAll" class="buttonAll">
+                        <img src="../img/delete.png" />
+                      </button>
+                      <button id="btnAll" class="buttonAll">
+                        <img src="../img/irPagamento.png" />
+                      </button>
+                    </div>
+                  </div>
+                </tr>
+                <tr>  
+                  <tr>
+                    <div class="listaPedidos">
+          
+                      <div>PEDIDO Nº 2</div>
+          
+                      <div>
+                        <button id="btnAll" class="buttonAll">
+                          <img src="../img/editar.png" />
+                        </button>
+                        <button id="btnAll" class="buttonAll">
+                          <img src="../img/delete.png" />
+                        </button>
+                        <button id="btnAll" class="buttonAll">
+                          <img src="../img/irPagamento.png" />
+                        </button>
+                      </div>
+                    </div>
+                  </tr>
+                  <tr>
+                    <tr>
+                      <div class="listaPedidos">
+            
+                        <div>PEDIDO Nº 2</div>
+            
+                        <div>
+                          <button id="btnAll" class="buttonAll">
+                            <img src="../img/editar.png" />
+                          </button>
+                          <button id="btnAll" class="buttonAll">
+                            <img src="../img/delete.png" />
+                          </button>
+                          <button id="btnAll" class="buttonAll">
+                            <img src="../img/irPagamento.png" />
+                          </button>
+                        </div>
+                      </div>
+                    </tr>
+                    <tr>
+                      <tr>
+          <div class="listaPedidos">
+
+            <div>PEDIDO Nº 2</div>
+
+            <div>
+              <button id="btnAll" class="buttonAll">
+                <img src="../img/editar.png" />
+              </button>
+              <button id="btnAll" class="buttonAll">
+                <img src="../img/delete.png" />
+              </button>
+              <button id="btnAll" class="buttonAll">
+                <img src="../img/irPagamento.png" />
+              </button>
+            </div>
+          </div>
+        </tr>
+        <tr><tr>
+          <div class="listaPedidos">
+
+            <div>PEDIDO Nº 2</div>
+
+            <div>
+              <button id="btnAll" class="buttonAll">
+                <img src="../img/editar.png" />
+              </button>
+              <button id="btnAll" class="buttonAll">
+                <img src="../img/delete.png" />
+              </button>
+              <button id="btnAll" class="buttonAll">
+                <img src="../img/irPagamento.png" />
+              </button>
+            </div>
+          </div>
+        </tr>
+        <tr>
+
+
+  </div>
+
+  </div>
+
+
+
+</body>
+
+</html>

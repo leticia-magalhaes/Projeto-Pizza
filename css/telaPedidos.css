@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif, Bhavuka;
+  font-size: 14pt;
+  font-weight: normal;
+  line-height:1.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+body{
+    padding-top:2rem;
+    background: #646963;
+}
+
+h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+h2 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+  }
+  
+p {
+    margin-top: 1rem;
+    text-align: justify;
+    margin-top: 1rem;
+  }
+
+#blank{
+  text-align: center;
+  padding-top: 5rem;
+  width:100%;
+  opacity:0.50;
+}
+
+#blank * {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.headerBar {
+    position: fixed;
+    top: 0;
+    right: flex;
+    width: 100%;
+    background-color: #C4C4C4;
+    color: #000000;
+    height: 5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: space-between;
+    font-weight: bold;
+    line-height:1rem;
+}
+
+/*.headerBar ~ *{
+  margin-top: 4rem;
+}*/
+
+.buttonGroup img{
+    height: 5rem;
+}
+
+.appTela{
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.badge{    
+    background: #000000;
+    border: 0.35rem solid #898989;
+    box-sizing: border-box;
+    min-width: 2rem;
+    text-align: center;
+    color: #FFFFFF;
+    margin-right: 1rem;
+}
+
+/* Botão */
+.button{
+    min-height: 3rem;
+    min-width: 5rem;
+    padding: 0.25rem 0.75rem;
+    border: 0.25rem;
+    box-sizing: border-box;
+    line-height: 1rem;
+    font-size: 15pt;
+    font-weight:bold;
+    user-select: nome;
+    cursor:pointer;
+}
+
+.button:active {
+  background: #FFFFFF;
+  border: 0.25rem solid #000000;
+}
+
+.button img {
+  height: 4rem;
+  width: 2rem;
+}
+
+.buttonGroup1 {
+  display: flex;
+  flex-direction:row;
+  padding: 0rem 0rem 0rem 0.2rem;
+  height: 4rem;
+  width: 2rem;
+}
+
+.buttonGroup2 {
+    display: flex;
+    flex-direction:row;
+    padding: 1rem 0rem 0rem 0rem;
+    position: fixed;
+    top: 3.1rem;
+    width:100%;
+  }
+  
+.buttonGroup2 .button {
+    flex: 1;
+    font-weight: bold;
+  }
+
+.buttonAll{ 
+  user-select: nome;
+  cursor:pointer;
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0rem 0rem 0rem 0.2rem;
+}
+
+.buttonAll img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.component{
+    padding: 0.75rem 0.25rem 0.25rem 0.25rem;
+}
+
+.navegacao{
+    display: flex;
+    flex-direction: row;
+}
+/* 
+.listaPedidos {
+  list-style: none;
+} */
+
+.listaPedidos{
+  padding: 1rem;
+  background: #C4C4C4;
+  border-color: #000000;
+  border-style: solid;
+  border-width: 0 thin thin thin;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+}
+#listaDePedidos{
+  padding-top: 15rem;
+}
+.conteinerLista{
+  margin-top: 5rem;
+}
+
+
+/* .listaPedidos li.active {
+  color: #FFFFFF;
+  background: #FAA602;
+  border: thin solid #FD0100;
+}
+
+.listaPedidos li:first-child {
+  border-top-width: thin;
+}
+
+.listaPedidos li:last-child {
+} */
+
+/* cores */
+.primario{
+    color: #000000;
+    background: #C4C4C4;
+   /*   border: solid #B3B3B3;*/
+  }
+  /*
+.primario:active {
+    background: #A2A2A2;
+    border: thin solid #919191;
+  }*/
+.secundario {
+    color: #FFFFFF;
+    background: #646963;
+    border: thin solid #535852;
+  }
+.secundario:active {
+    background: #424741;
+    border: thin solid #313630;
+  }
+.terciario {
+    color: #000000;
+    background: #FFFFFF;
+ /*   border: 0.25rem solid #000000;*/
+  }
+.terciario:active {
+    background: #C4C4C4;
+    border: 0.25 solid #000000;
+  }
+.success {
+    color: #fff;
+    background: #2a9d8f;
+    border: thin solid #198c7e;
+  }
+.success:active {
+    background: #087b6d;
+    border: thin solid #006a5c;
+  }
+.warning {
+    color: #000;
+    background: #ffd166;
+    border: thin solid #eec055;
+  }
+.warning:active {
+    background: #ddb044;
+    border: thin solid #cca033;
+  }
+.danger {
+    color: #fff;
+    background: #ef233c;
+    border: thin solid #de122b;
+  }
+.danger:active {
+    background: #cd011a;
+    border: thin solid #bc0009;
+  }
+.light {
+    color: #000;
+    background: #edf6f9;
+    border: thin solid #dce5e8;
+  }
+.light:active {
+    background: #cbd4d7;
+    border: thin solid #bac3c6;
+  }
+.dark {
+    color: #fff;
+    background: #1d3a4e;
+    border: thin solid #0c293d;
+  }
+.dark:active {
+    background: #00182c;
+    border: thin solid #00071b;
+  }
+
+/* espaçamentos */
+.mt1 {
+    margin-top: 1rem;
+  }
+.mt2 {
+    margin-top: 2rem;
+  }
+.mt3 {
+    margin-top: 3rem;
+  }
+.mt4 {
+    margin-top: 4rem;
+  }

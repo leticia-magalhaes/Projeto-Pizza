@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <title>Vila Miisa Pizzaria</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="../css/telaEntregas.css" />
+  <script src="../js/telaEntregas.js"></script>
+  
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="canonical" href="../views/index.html">
+
+  <link rel="apple-touch-icon" href="imagens/pmv-512x512.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Vila Miisa Pizzaria">
+</head>
+
+<body>
+  <header class="headerBar primario">
+    <nav class="navegacao">
+      <div class="buttonGroup1">
+        <button id="btnVoltar" class="button terciario" onclick="mudaPagina('telaMenu.html')">
+          <img src="../img/setaVoltar.png" />
+        </button>
+    </nav>
+    </div>
+    <div class="appTela">Entregas</div>
+    <div class="badge">3</div>
+  </header>
+
+  <div id="telaEntregas" class="component">
+
+    <div id="componente2" class="component">
+      <div class="buttonGroup2 mt1">
+        <button id="btnInserirNovoEntregas" class="button terciario">Inserir Nova Entrega</button>
+      </div>
+    </div>
+
+    <!-- <div class="componentContent">
+      <div id="blank">
+        <img src="../img/logoVilaMiisa.png" />
+        <p>Ainda não temos Entregas.</p>
+      </div> -->
+
+    <div >
+      <table id="listaDeEntregas">
+        <tr >
+          <div class="listaEntregas">
+
+          <div>Entrega Nº 1</div>
+
+          <div class="btnTelaEntrega">
+            <button id="btnAll" class="buttonAll">
+              <img src="../img/editar.png" />
+            </button>
+            <button id="btnAll" class="buttonAll">
+              <img src="../img/delete.png" />
+            </button>
+            <button id="btnAll" class="buttonAll">
+              <img src="../img/whats app.png" />
+            </button>
+          </div>
+        </div>
+        </tr>
+        <tr >
+          <div class="listaEntregas">
+
+          <div>Entrega Nº 1</div>
+
+          <div class="btnTelaEntrega">
+            <button id="btnAll" class="buttonAll">
+              <img src="../img/editar.png" />
+            </button>
+            <button id="btnAll" class="buttonAll">
+              <img src="../img/delete.png" />
+            </button>
+            <button id="btnAll" class="buttonAll">
+              <img src="../img/whats app.png" />
+            </button>
+          </div>
+        </div>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+
+</html>
